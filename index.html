@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+        <meta charset="UTF-8">
+        <title> SURVEY FORM</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+</html>
+<body>  
+<h1 id="title"> KILIMANJARO RESTUARANT SURVEY FORM</h1>
+<p id="description">Thank you for having your time with us, make us more usefull </p> 
+<form id="survey form">  
+<label id="name-label" for="name">Name:</label>
+<input type="text" placeholder="enter your name" id="name" required/>
+<label id="email-label" for="email">Email:</label>
+<input type="text" placeholder="enter your email" required id="email"/>
+<label id="number-label" for="number">Number</label>
+<input type="text" min="10" max="10" placeholder="enter your number" id="number" required/>
+<label for="dropdown">Choose your area of interest;</label>
+<select id="dropdown">  
+    <option value="">Select one</option>
+    <option value="student"> Student</option>
+    <option value="professional">professional</option>
+    <p>Select your level;</p>
+    <label>
+        <input type="radio" name="exprience" value="beginner">Beginner         
+    </label>
+    <label>
+        <input type="radio" name="exprience" value="advanced">Advanced
+    </label>
+</select>
+<p> Select your area of interest in webdevelopment;</p>
+<label>
+    <input type="checkbox" value="html"> HTML
+</label>
+<label>
+    <input type="checkbox" value="css">CSS
+</label>
+<label>
+    <input type="checkbox" value="javascript">Javascript
+</label>
+<p> Additional comment;</p>
+<textarea cols="30" rows="4"></textarea>
+<button id="submit" type="submit">Submit</button>
+</form>
+
+</body>
